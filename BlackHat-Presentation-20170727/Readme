@@ -3,16 +3,9 @@ In this directory you will find:
 2) Videos / Demos of what was shown during the talk
 
   Demo1-20170625-2232-FileShareInfection.mp4
-  - This video demonstrates that installing an agent on another endpoint, for example a file share, which is where
-  the initiation did not occur does not protect the fileshare.
-  - In 5/5 EPP agents installed on a file share, they were not protected when the ransomware connected to it via the network
-  and started to encrypt the file share.
-  - This scenario is important as most of us know that ransomware inheriantly works as any normal user. It makes its network
-  connect and can make CRUD calls. In the case of ransomware where the initial call starts from another endpoint,
-  the best you can do in terms of the "protected" file share is detect the behaviour. By the time you get to it, the
-  damage is pretty much done.
-  - do not let any vendor or marketing talk upsell that your file shares will be protected against ransomware if you plae
-  an agent on the file server itself and with no protection on the initiating endpoint.
+  - This video demonstrates that installing an agent on another endpoint, for example a file share, and not the machine where the malware initiated, does not protect the fileshare. I know your boss think it will, but show them this!
+  - Of the 5/5 EPP agents installed onto a file share, they were not protected when the ransomware connected to it via the network and started to encrypt the files.
+  - This scenario is important as most of us know that ransomware inheriantly works as any normal user behaviour. It makes its network connection and can make CRUD calls. In the case of ransomware where the initial call starts from another endpoint, the best you can do in terms of the "protected" file share is detect the behaviour. By the time you get to it, the damage is pretty much done.
+  - Do not let any vendor or marketing talk upsell that your file shares will be protected against ransomware if you install their agent on the file server itself and with no protection on the initiating endpoint.
   - EPIC FAIL!
-  - the only way to protect your endpoint is put it in READ-ONLY mode and then your malware can't write. I tested this too
-  as logical as it may seem.
+  - The only way to protect your endpoint is put it in READ-ONLY mode and then your malware can't write. I tested this too as logical as it may seem!
