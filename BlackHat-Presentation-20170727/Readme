@@ -11,17 +11,17 @@ In this directory you will find:
   - The only way to protect your endpoint is put it in READ-ONLY mode and then your malware can't write. I tested this too as logical as it may seem!
 
   Demo3-20170607-2330-PreExecOff-Batch.mp4
-  - In this scenario, I turned off the pre-execution modeule, as I wanted to validate that even with this control turned off, I was able to successful detected and quarantine any executing malware
+  - In this scenario, I turned off the pre-execution module, as I wanted to validate that even with this control turned off, I was able to successful detected and quarantine any executing malware
   - In fact, this worked as expected, 100 pieces of malware, mutated 2 times
-  - Results where as expected
+  - Results where as expected - nice work!
   
   Demo4 (coming....)
-  - As opposed to Demo3, same scenario but I instead of executing the malware using a loop in a batch script, I did it via a powershell script
+  - As opposed to Demo3, same scenario but instead of executing the malware using a loop in a batch script, I did it in powershell
   - Nothing fancy about this script, newbie stuff
   - Not only did all the 100 pieces execute, but the agent was completely blind
-  - There is no difference to this scenario and Demo3, execpt my method to run the malware is different
+  - There is no difference to this scenario compared to Demo3, execpt my method to run and execute the malware is different
   - Personally I think there is an error in this vendors code, maybe I found a zero day :)
-  - I reported it, I hope they fix it, otherwise I would not recommend this solution as their powershell behaviour is not solid yet
+  - I reported it, I hope they fix it, otherwise I would not recommend this solution right now as their powershell behaviour needs improvement
   
   Demo5 (coming....)
   - Probably one of my favourites - the double ransomware attack. This happened to 3/5 solutions I tested.
