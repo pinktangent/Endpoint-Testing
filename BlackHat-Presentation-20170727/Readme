@@ -9,3 +9,29 @@ In this directory you will find:
   - Do not let any vendor or marketing talk upsell that your file shares will be protected against ransomware if you install their agent on the file server itself and with no protection on the initiating endpoint.
   - EPIC FAIL!
   - The only way to protect your endpoint is put it in READ-ONLY mode and then your malware can't write. I tested this too as logical as it may seem!
+
+  Demo3-20170607-2330-PreExecOff-Batch.mp4
+  - In this scenario, I turned off the pre-execution modeule, as I wanted to validate that even with this control turned off, I was able to successful detected and quarantine any executing malware
+  - In fact, this worked as expected, 100 pieces of malware, mutated 2 times
+  - Results where as expected
+  
+  Demo4 (coming....)
+  - As opposed to Demo3, same scenario but I instead of executing the malware using a loop in a batch script, I did it via a powershell script
+  - Nothing fancy about this script, newbie stuff
+  - Not only did all the 100 pieces execute, but the agent was completely blind
+  - There is no difference to this scenario and Demo3, execpt my method to run the malware is different
+  - Personally I think there is an error in this vendors code, maybe I found a zero day :)
+  - I reported it, I hope they fix it, otherwise I would not recommend this solution as their powershell behaviour is not solid yet
+  
+  Demo5 (coming....)
+  - Probably one of my favourites - the double ransomware attack. This happened to 3/5 solutions I tested.
+  - Ransomware which I renamed mno.exe, which happened to be a double mutated sample, was complete undetectable by 3 engines. SAD!
+  - Once the machine was infected with the ransomware, the entire system was vulnerable as you can see, it gets infected again.
+  - All three dashboard, with 2 having hunting and triage, were not even detecting this event happened. What good is the dashboard for IR if my process and its children are never recorded!
+  
+  Demo6 (coming... too big to upload right now)
+  - Target Attack scenario of Ms011-003
+  - Yeh another EDR solution being evaded by an OLD browser exploit. The thing I found interesting about this was, initally no detection, maybe as it was looking for indictaors of attack. For that I give you extra points. Lets be honest, IOC is just another bunch of signatures and they are look late in the kill chain!
+  - However, I did reverse shell in via browser exploit, so you should have stopped me, all the other vendors did, why didnt you!
+  - You didnt detect me by your machine learning and when your SOC function did, I had already excuted a shell and was doing some simple recon.
+  - Thats 30 mins too late in my books!
