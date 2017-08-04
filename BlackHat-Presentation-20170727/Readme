@@ -27,7 +27,8 @@ In this directory you will find:
   - Probably one of my favourites - the double ransomware attack. This happened to 3/5 solutions I tested.
   - Ransomware which I renamed mno.exe, which happened to be a double mutated sample, was complete undetectable by 3 engines. SAD!
   - Once the machine was infected with the ransomware, the entire system was vulnerable as you can see, it gets infected again.
-  - All three dashboards, whereby 2 had hunting and triage capability, none were even detecting this event happened. Whats the point advertising your thradt hunting and IR capability if the process and its children are never recorded!
+  - All three dashboards, whereby 2 had hunting and triage capability, none were even detecting this event happened. Whats the point advertising your threat hunting and IR capability if the process and its children are never recorded!
+  - Also love the fact that a simple double mutated sample made you all blind! Just wrong!
   
   Demo6 (coming... too big to upload right now)
   - Target Attack scenario of Ms011-003
