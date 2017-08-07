@@ -1,7 +1,8 @@
-In this directory you will find
-How to do for:
-  - pre-execution scenarios
-  - detonation only
-  - all capabilities
-  - attack scenarios
-  - other things to test for and catches which are my learnings of things I wish I knew before I tested
+In this directory you will find the EPP testing framework:
+  - 0. Preparation and Learnings of things I wish I had known before
+  - 1. Testing for Pre-Execution
+  - 2. Detonation only - this allows you to compare NGAV and EDR functionality against each other
+  - 3. All capabilities enabled
+  - 4. Detection vs Prevention Testing
+  - 5. Attack Scenarios and Memory-Based Testing
+  - 6. How to detonate, command line, batch, powershell obfuscation
