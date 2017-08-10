@@ -1,0 +1,6 @@
+https://www.youtube.com/watch?v=jgib1Cd2W_M
+
+Demo 4 demonstrates running 100 pieces of Malware via an extremely simply powershell scripts which just loops through the directory.
+What makes this execution so interesting is, previous the same malware was executed via a batch script, everything was either quarantined or blocked.
+Same malware, just executed using powershell, the EPP agent is completely blind.
+I think we found an accidential zero day in the software code, which we kindly reported and we believe this to be fixed now.
