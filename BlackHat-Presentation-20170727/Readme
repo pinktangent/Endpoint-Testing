@@ -24,7 +24,8 @@ In this directory you will find:
   - Personally I think there is an error in this vendors code, maybe I found a zero day :)
   - I reported it, I hope they fix it, otherwise I would not recommend this solution right now as their powershell behaviour needs improvement
   
-  Demo5 (coming....)
+  Demo5-DoubleRamonware (added 9 Aug 2017)
+  - https://www.youtube.com/watch?v=jgib1Cd2W_M
   - Probably one of my favourites - the double ransomware attack. This happened to 3/5 solutions I tested.
   - Ransomware which I renamed mno.exe, which happened to be a double mutated sample, was complete undetectable by 3 engines. SAD!
   - Once the machine was infected with the ransomware, the entire system was vulnerable as you can see, it gets infected again.
