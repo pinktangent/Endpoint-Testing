@@ -32,7 +32,8 @@ In this directory you will find:
   - All three dashboards, whereby 2 had hunting and triage capability, none were even detecting this event happened. Whats the point advertising your threat hunting and IR capability if the process and its children are never recorded!
   - Also love the fact that a simple double mutated sample made you all blind! Just wrong!
   
-  Demo6 (coming... too big to upload right now)
+  Demo6-TargetAttack-MS11-003 (added 9 Aug 2017)
+  - https://www.youtube.com/watch?v=guiZ3_t2U80
   - Target Attack scenario of Ms011-003
   - Yeh another EDR solution being evaded by an OLD browser exploit. The thing I found interesting about this was, initally no detection, maybe as it was looking for indictaors of attack. For that I give you extra points. Lets be honest, IOC is just another bunch of signatures and they are a little too late in the kill chain!
   - However, I did reverse shell in via browser exploit, so you should have stopped me, all the other vendors did, why didnt you!
