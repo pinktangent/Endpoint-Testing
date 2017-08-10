@@ -15,7 +15,8 @@ In this directory you will find:
   - In fact, this worked as expected, 100 pieces of malware, mutated 2 times
   - Results where as expected - nice work!
   
-  Demo4 (coming....)
+  Demo4-PreExecOff-Powershell (added 9 Aug 2017)
+  - https://www.youtube.com/watch?v=jgib1Cd2W_M
   - As opposed to Demo3, same scenario but instead of executing the malware using a loop in a batch script, I did it in powershell
   - Nothing fancy about this script, newbie stuff
   - Not only did all the 100 pieces execute, but the agent was completely blind
