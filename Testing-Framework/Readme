@@ -1,5 +1,5 @@
 In this directory you will find the EPP testing framework:
-  - 0. Preparation and Learnings (This will be uploaded next... please bare with me)
+  - 0. Preparation (Will be uploaded 11 Aug evening.. just finishing the last read)
   - 1. Testing for Pre-Execution (Uploaded)
   
   Finalising .. adding comments
@@ -8,6 +8,7 @@ In this directory you will find the EPP testing framework:
   - 4. Detection vs Prevention Testing
   - 5. Attack Scenarios and Memory-Based Testing
   - 6. How to detonate, command line, batch, powershell obfuscation
+  - 7. Other learnings and little important big things
   
   NB: Your patience is appreciated. I am working on this after hours in my own personal time.
   Thanks!
