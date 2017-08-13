@@ -1,8 +1,8 @@
 In this directory you will find the EPP testing framework:
-  - 0. Preparation (Will be uploaded 11 Aug evening.. just finishing the last read)
-  - 1. Testing for Pre-Execution (Uploaded)
+  - 0. Preparation Guide
+  - 1. Testing for Pre-Execution
   
-  Finalising .. adding comments
+  Comimg soon..
   - 2. Detonation only - this allows you to compare NGAV and EDR functionality against each other
   - 3. All capabilities enabled
   - 4. Detection vs Prevention Testing
