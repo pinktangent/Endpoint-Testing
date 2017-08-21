@@ -1,11 +1,10 @@
 In this directory you will find the EPP testing framework:
   - 0. Preparation Guide
   - 1. Testing for Pre-Execution
-  - 2. Detonation Only - Allows comparsion between NGAV and EDR
-       *** In Progress (almost ready 2017-08-17)
+  - 2. Detonation Only
+  - 3. All capabilities enabled (NEXT: Working on this now...)
   
   Comimg soon..
-  - 3. All capabilities enabled
   - 4. Detection vs Prevention Testing
   - 5. Attack Scenarios and Memory-Based Testing
   - 6. How to detonate, command line, batch, powershell obfuscation
