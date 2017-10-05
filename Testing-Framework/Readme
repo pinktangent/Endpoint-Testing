@@ -5,7 +5,6 @@ In this directory you will find the EPP testing framework:
   - 2. Detonation Only
   - 3. All capabilities enabled
   - 4. Attack Scenarios and Memory-Based Testing
-  - 5. Detonation and Weaponsing Techniques (next....)
   
   Comimg soon..
   - 6. Other learnings and little important big things
@@ -16,4 +15,4 @@ In this directory you will find the EPP testing framework:
   
   COMING SOON in October EPP Self-Paced Class https://pinktangent.github.io/. 
   This will provide STEP-BY-STEP on exactly how to setup your environment, downloading malware, execute all these scenarios and how it relates to the testing spreadsheets.
-  ** Please let comments if you notice any errors or have improvement suggestions ** Thanks!
+  ** Please leave comments if you notice any errors or have improvement suggestions ** Thanks!
