@@ -6,3 +6,5 @@ The purpose of this repository is to provide you with tools that you can use for
 If you are reading this and have other things you think are useful to add or change, please email me or log it as an issue / request.
 
 Enjoy!
+
+NOte: EPP Self-Paced Workshop / Class currently in progress https://pinktangent.github.io/
