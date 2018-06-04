@@ -7,7 +7,7 @@ At the time of my testing last year, other than a few vendor guides that you wer
 
 1) Static Prevention
 2) Dynamic Prevention
-3) Dynamic Detection and Behaviour Analytics
+3) Dynamic Detection and Behavioural Analytics
 4) Non-Functional testing - just because it is effective against your functional requirements, is it the right fit for your environment?
 
 If you are reading this and have other things you think are useful to add or change, please email me or log it as an issue / request.
