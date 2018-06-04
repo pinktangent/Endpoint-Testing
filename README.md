@@ -14,4 +14,4 @@ If you are reading this and have other things you think are useful to add or cha
 
 Enjoy!
 
-NOte: EPP Self-Paced Workshop / Class currently in progress https://pinktangent.github.io/
+Note: EPP Self-Paced Workshop / Class currently in progress https://pinktangent.github.io/
