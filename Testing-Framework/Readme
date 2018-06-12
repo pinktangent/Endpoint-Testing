@@ -1,18 +1,16 @@
 In this directory you will find the EPP testing framework:
   - 0. Preparation Guide
-  - 1a. Pre-Execution (Tests for on-demand and on-write regardless of how the malware was introduced)
-  - 1b. Pre-Execution (Tests for on-demand and detailed on-write scenarios, which may be important to a business)
-  - 2. Detonation Only
-  - 3. All capabilities enabled
-  - 4. Attack Scenarios and Memory-Based Testing
-  
-  Comimg soon..
-  - 6. Other learnings and little important big things
-  - 7. Example completed spreadsheets
-  
-  NB: Your patience is appreciated. I am working on this after hours in my own personal time.
-  Thanks!
-  
-  COMING SOON in October EPP Self-Paced Class https://pinktangent.github.io/. 
-  This will provide STEP-BY-STEP on exactly how to setup your environment, downloading malware, execute all these scenarios and how it relates to the testing spreadsheets.
-  ** Please leave comments if you notice any errors or have improvement suggestions ** Thanks!
+  - 1. Static Prevention
+      a) Pre-Execution (Tests for on-demand and on-write scenarios, malware is introduced as a write to disk only)
+      b) Pre-Execution (Tests for on-demand and on-write scenarios, malware is introduced using different methods)
+  - 2. Dynamic Prevention
+      a) Detonation Only
+      b) All capabilities enabled
+  - 3. Dynamic Dection and Respone
+      Specific attack scenarios using the Mitre ATT&CK
+  - 4. Business and Non-Functional Testing
+      There is no malware testing in this scenario. 
+      These are scenarios to see how compatible the solution fits into your enviornment, the false-positive and tuning challenges and cost of other integration. 
+ 
+  EPP Self-Paced Class https://pinktangent.github.io/ COMING SOON...
+  This will provide STEP-BY-STEP guide on exactly how to setup your environment, downloading malware, and how to execute the listed scenarios.
